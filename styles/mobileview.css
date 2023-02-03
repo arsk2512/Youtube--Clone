@@ -1,0 +1,30 @@
+@media only screen and (max-width:412px) {
+  body {
+    padding: 80px 0 0;
+  }
+
+  .header .hamburger-menu,
+  .header .right-section,
+  .sidebar {
+    display: none;
+  }
+
+  .header .youtube-logo {
+    padding-left: 8px;
+  }
+
+
+  .header .middle-section,
+  .header .voice-search-button {
+    margin-left: 24px;
+  }
+
+  .header .search-button {
+    width: 50px;
+  }
+
+  .videos-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
